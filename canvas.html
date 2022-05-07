@@ -1,0 +1,31 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+               <title>canvas</title>
+    </head>
+    <body>
+        <img  id="imagem" src="imagens/Forma 2 (1).png">
+ <canvas id="canvas1" width="600" height="600" style="border:1px solid rgb(227, 207, 228)">
+    
+</canvas>
+     
+<script>
+    window.onload = function() {
+     const canvas = document.getElementById("canvas1");
+     const context = canvas.getContext("2d");
+     
+     const imagem1 = document.getElementById("imagem");
+     context.drawImage(imagem1,0,0);
+    };
+ 
+     </script>
+            
+
+        
+
+
+
+    </body>
+    </html>
